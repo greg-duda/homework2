@@ -1,0 +1,196 @@
+.nav {
+    height: 35px;
+    background-color: darksalmon;
+    font-size: 10px;
+    color: white;
+}
+
+.my {
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.about {
+    display: inline-block;
+    margin-left: 90%;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.form {
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.my:hover {
+    color: lightgrey;
+    cursor: pointer;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: lightgrey;
+}
+
+
+.devstock {
+    background-image: url(./images/image1.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* W zadaniu nie sprecyzowano czy obrazek ma sie pomniejszać responsywnie (?) z rozmiarem okna więc zrobiłem że nie reaguje na zmiane rozdzielczosci.*/
+    
+    
+    
+    
+   
+    
+}
+
+.header {
+    color: darksalmon;
+    padding: 10px 0px 40px 45px;
+    font-size: 40px;
+    margin-top: 50px;
+    display: inline-block;
+    border-right: darksalmon solid 1px;
+    height: 15px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100vw;
+    
+}
+
+.main {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 40px;
+    margin: 0 5%;
+}
+.header1 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: slategray;
+}
+.header2 {
+    margin-top: 20px;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+}
+.article {
+    
+    display: inline-block;
+    width: 430px;
+    height: 120px;
+    font-size: 12px;
+    background-color: linen;
+    margin: 50px 30px 0px 30px;
+    font-weight: 600;
+    justify-content: center;
+    padding: 0 10px;
+    text-align: center;
+    transition: 0.5s;
+    /*tutaj w artykułach srodkowa linia wystaje szerzej niz górna i dolna, niestety nie wiem jak to osiagnac, pewnie jest jakis najprostszy sposob który mi umknął*/
+
+}
+.article:hover {
+    transform:scale(1.1);
+    outline: 3px solid lightslategray;
+}
+h5 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.footer {
+    margin-top: 50px;
+    background-color: darksalmon;
+    height: 400px;
+    width: 100vw;
+    
+    
+}
+.footerleft {
+    display: inline-block;
+    width: 30vw;
+    height: 300px;
+    font-size: 15px;
+    padding-top: 30px;
+    padding-left: 15px;
+    
+    vertical-align: top;
+
+    
+    
+}
+.footercenter {
+    display: inline-block;
+    width: 30vw;
+    text-align: center;
+    vertical-align: bottom;
+    padding-top: 120px;
+    
+    
+    
+    
+
+    
+    
+    
+}
+.footerright {
+    padding-top: 30px;
+    width: auto;
+
+padding-left: 150px;
+display: inline-block;
+vertical-align: top;
+}
+img {
+    display: inline-block;
+    width: 250px;
+      
+}
+h1 {
+    margin: 0px;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+b {
+    font-size: 20px;
+    font-weight: 800;
+}
+button {
+    background-color: black;
+    color: white;
+    width: 80px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
+input[type=text] {
+    height: 25px;
+}
+input[type=password] {
+    height: 25px;
+}
+input[type=checkbox] {
+    
+}
+#remember {
+    font-size: 15px;
+}
+label {
+    font-weight: 600;
+}
+/* robione na na lapku 1920x1080, w folderze załączone linki jak to wyglada u mnie, nie wiem jak na mniejszych laptopach, jednak po zmniejszaniu okna oczywiscie wszystko przeskakuje, być może powinienem był użyć innych jednostek niż px, jednak musze się bardziej rozeznać w temacie co się najlepiej używa.*/ 
